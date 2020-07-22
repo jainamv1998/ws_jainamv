@@ -1,0 +1,2976 @@
+[
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs/{notification}",
+    "method" : "delete",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs/{notification}",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs",
+    "bodySchema" : {
+      "properties" : {
+        "object_name_prefix" : {
+          "type" : "string"
+        },
+        "payload_format" : {
+          "type" : "string"
+        },
+        "event_types" : {
+          "array" : true,
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "topic" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "custom_attributes" : {
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl/{entity}",
+    "method" : "delete",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl/{entity}",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl/{entity}",
+    "bodySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "object" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "patch",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl/{entity}",
+    "bodySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "object" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/iam/testPermissions",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "permissions" : {
+          "required" : true,
+          "type" : "array"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "versions" : {
+          "type" : "boolean"
+        },
+        "delimiter" : {
+          "type" : "string"
+        },
+        "maxResults" : {
+          "type" : "integer"
+        },
+        "prefix" : {
+          "type" : "string"
+        },
+        "includeTrailingDelimiter" : {
+          "type" : "boolean"
+        },
+        "pageToken" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o",
+    "bodySchema" : {
+      "properties" : {
+        "metadata" : {
+          "type" : "object"
+        },
+        "temporaryHold" : {
+          "type" : "boolean"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "customerEncryption" : {
+          "properties" : {
+            "encryptionAlgorithm" : {
+              "type" : "string"
+            },
+            "keySha256" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "timeDeleted" : {
+          "type" : "string"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "md5Hash" : {
+          "type" : "string"
+        },
+        "contentDisposition" : {
+          "type" : "string"
+        },
+        "contentEncoding" : {
+          "type" : "string"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "contentType" : {
+          "type" : "string"
+        },
+        "generation" : {
+          "type" : "string"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "retentionExpirationTime" : {
+          "type" : "string"
+        },
+        "cacheControl" : {
+          "type" : "string"
+        },
+        "kmsKeyName" : {
+          "type" : "string"
+        },
+        "mediaLink" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "eventBasedHold" : {
+          "type" : "boolean"
+        },
+        "componentCount" : {
+          "type" : "integer"
+        },
+        "crc32c" : {
+          "type" : "string"
+        },
+        "size" : {
+          "type" : "string"
+        },
+        "timeStorageClassUpdated" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "contentLanguage" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "predefinedAcl" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "contentEncoding" : {
+          "type" : "string"
+        },
+        "ifGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "kmsKeyName" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl/{entity}",
+    "method" : "delete",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl/{entity}",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl/{entity}",
+    "bodySchema" : {
+      "properties" : {
+        "bucket" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "patch",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl/{entity}",
+    "bodySchema" : {
+      "properties" : {
+        "bucket" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl",
+    "bodySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "object" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl/{entity}",
+    "method" : "delete",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl/{entity}",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl/{entity}",
+    "bodySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "object" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "patch",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl/{entity}",
+    "bodySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "object" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{sourceBucket}/o/{sourceObject}/rewriteTo/b/{destinationBucket}/o/{destinationObject}",
+    "bodySchema" : {
+      "properties" : {
+        "metadata" : {
+          "type" : "object"
+        },
+        "temporaryHold" : {
+          "type" : "boolean"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "customerEncryption" : {
+          "properties" : {
+            "encryptionAlgorithm" : {
+              "type" : "string"
+            },
+            "keySha256" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "timeDeleted" : {
+          "type" : "string"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "md5Hash" : {
+          "type" : "string"
+        },
+        "contentDisposition" : {
+          "type" : "string"
+        },
+        "contentEncoding" : {
+          "type" : "string"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "contentType" : {
+          "type" : "string"
+        },
+        "generation" : {
+          "type" : "string"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "retentionExpirationTime" : {
+          "type" : "string"
+        },
+        "cacheControl" : {
+          "type" : "string"
+        },
+        "kmsKeyName" : {
+          "type" : "string"
+        },
+        "mediaLink" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "eventBasedHold" : {
+          "type" : "boolean"
+        },
+        "componentCount" : {
+          "type" : "integer"
+        },
+        "crc32c" : {
+          "type" : "string"
+        },
+        "size" : {
+          "type" : "string"
+        },
+        "timeStorageClassUpdated" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "contentLanguage" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "rewriteToken" : {
+          "type" : "string"
+        },
+        "ifSourceGenerationMatch" : {
+          "type" : "string"
+        },
+        "sourceGeneration" : {
+          "type" : "string"
+        },
+        "ifSourceMetagenerationNotMatch" : {
+          "type" : "string"
+        },
+        "ifSourceMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "maxBytesRewrittenPerCall" : {
+          "type" : "string"
+        },
+        "ifSourceGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "destinationKmsKeyName" : {
+          "type" : "string"
+        },
+        "destinationPredefinedAcl" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "ifGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/channels/stop",
+    "bodySchema" : {
+      "properties" : {
+        "resourceId" : {
+          "type" : "string"
+        },
+        "address" : {
+          "type" : "string"
+        },
+        "payload" : {
+          "type" : "boolean"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "expiration" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "resourceUri" : {
+          "type" : "string"
+        },
+        "params" : {
+          "type" : "object"
+        },
+        "type" : {
+          "type" : "string"
+        },
+        "token" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post"
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/iam",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/iam",
+    "bodySchema" : {
+      "properties" : {
+        "resourceId" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "bindings" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "etag" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/projects/{projectId}/serviceAccount",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/iam/testPermissions",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "permissions" : {
+          "required" : true,
+          "type" : "array"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl",
+    "bodySchema" : {
+      "properties" : {
+        "bucket" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{destinationBucket}/o/{destinationObject}/compose",
+    "bodySchema" : {
+      "properties" : {
+        "kind" : {
+          "type" : "string"
+        },
+        "destination" : {
+          "properties" : {
+            "metadata" : {
+              "type" : "object"
+            },
+            "temporaryHold" : {
+              "type" : "boolean"
+            },
+            "acl" : {
+              "array" : true,
+              "type" : "object"
+            },
+            "customerEncryption" : {
+              "properties" : {
+                "encryptionAlgorithm" : {
+                  "type" : "string"
+                },
+                "keySha256" : {
+                  "type" : "string"
+                }
+              },
+              "type" : "object"
+            },
+            "timeDeleted" : {
+              "type" : "string"
+            },
+            "storageClass" : {
+              "type" : "string"
+            },
+            "md5Hash" : {
+              "type" : "string"
+            },
+            "contentDisposition" : {
+              "type" : "string"
+            },
+            "contentEncoding" : {
+              "type" : "string"
+            },
+            "timeCreated" : {
+              "type" : "string"
+            },
+            "id" : {
+              "type" : "string"
+            },
+            "contentType" : {
+              "type" : "string"
+            },
+            "generation" : {
+              "type" : "string"
+            },
+            "owner" : {
+              "properties" : {
+                "entityId" : {
+                  "type" : "string"
+                },
+                "entity" : {
+                  "type" : "string"
+                }
+              },
+              "type" : "object"
+            },
+            "metageneration" : {
+              "type" : "string"
+            },
+            "kind" : {
+              "type" : "string"
+            },
+            "retentionExpirationTime" : {
+              "type" : "string"
+            },
+            "cacheControl" : {
+              "type" : "string"
+            },
+            "kmsKeyName" : {
+              "type" : "string"
+            },
+            "mediaLink" : {
+              "type" : "string"
+            },
+            "selfLink" : {
+              "type" : "string"
+            },
+            "bucket" : {
+              "type" : "string"
+            },
+            "eventBasedHold" : {
+              "type" : "boolean"
+            },
+            "componentCount" : {
+              "type" : "integer"
+            },
+            "crc32c" : {
+              "type" : "string"
+            },
+            "size" : {
+              "type" : "string"
+            },
+            "timeStorageClassUpdated" : {
+              "type" : "string"
+            },
+            "name" : {
+              "type" : "string"
+            },
+            "contentLanguage" : {
+              "type" : "string"
+            },
+            "etag" : {
+              "type" : "string"
+            },
+            "updated" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "sourceObjects" : {
+          "array" : true,
+          "type" : "object"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "destinationPredefinedAcl" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "kmsKeyName" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{sourceBucket}/o/{sourceObject}/copyTo/b/{destinationBucket}/o/{destinationObject}",
+    "bodySchema" : {
+      "properties" : {
+        "metadata" : {
+          "type" : "object"
+        },
+        "temporaryHold" : {
+          "type" : "boolean"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "customerEncryption" : {
+          "properties" : {
+            "encryptionAlgorithm" : {
+              "type" : "string"
+            },
+            "keySha256" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "timeDeleted" : {
+          "type" : "string"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "md5Hash" : {
+          "type" : "string"
+        },
+        "contentDisposition" : {
+          "type" : "string"
+        },
+        "contentEncoding" : {
+          "type" : "string"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "contentType" : {
+          "type" : "string"
+        },
+        "generation" : {
+          "type" : "string"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "retentionExpirationTime" : {
+          "type" : "string"
+        },
+        "cacheControl" : {
+          "type" : "string"
+        },
+        "kmsKeyName" : {
+          "type" : "string"
+        },
+        "mediaLink" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "eventBasedHold" : {
+          "type" : "boolean"
+        },
+        "componentCount" : {
+          "type" : "integer"
+        },
+        "crc32c" : {
+          "type" : "string"
+        },
+        "size" : {
+          "type" : "string"
+        },
+        "timeStorageClassUpdated" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "contentLanguage" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "ifSourceGenerationMatch" : {
+          "type" : "string"
+        },
+        "sourceGeneration" : {
+          "type" : "string"
+        },
+        "ifSourceMetagenerationNotMatch" : {
+          "type" : "string"
+        },
+        "ifSourceMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "ifSourceGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "destinationPredefinedAcl" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "ifGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/watch",
+    "bodySchema" : {
+      "properties" : {
+        "resourceId" : {
+          "type" : "string"
+        },
+        "address" : {
+          "type" : "string"
+        },
+        "payload" : {
+          "type" : "boolean"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "expiration" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "resourceUri" : {
+          "type" : "string"
+        },
+        "params" : {
+          "type" : "object"
+        },
+        "type" : {
+          "type" : "string"
+        },
+        "token" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "versions" : {
+          "type" : "boolean"
+        },
+        "delimiter" : {
+          "type" : "string"
+        },
+        "maxResults" : {
+          "type" : "integer"
+        },
+        "prefix" : {
+          "type" : "string"
+        },
+        "includeTrailingDelimiter" : {
+          "type" : "boolean"
+        },
+        "pageToken" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/iam",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/iam",
+    "bodySchema" : {
+      "properties" : {
+        "resourceId" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "bindings" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "etag" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "serviceAccountEmail" : {
+          "type" : "string"
+        },
+        "maxResults" : {
+          "type" : "integer"
+        },
+        "pageToken" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "showDeletedKeys" : {
+          "type" : "boolean"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys",
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "serviceAccountEmail" : {
+          "required" : true,
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}",
+    "method" : "delete",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}",
+    "bodySchema" : {
+      "properties" : {
+        "cors" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "versioning" : {
+          "properties" : {
+            "enabled" : {
+              "type" : "boolean"
+            }
+          },
+          "type" : "object"
+        },
+        "locationType" : {
+          "type" : "string"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "billing" : {
+          "properties" : {
+            "requesterPays" : {
+              "type" : "boolean"
+            }
+          },
+          "type" : "object"
+        },
+        "lifecycle" : {
+          "properties" : {
+            "rule" : {
+              "array" : true,
+              "type" : "object"
+            }
+          },
+          "type" : "object"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "encryption" : {
+          "properties" : {
+            "defaultKmsKeyName" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "iamConfiguration" : {
+          "properties" : {
+            "bucketPolicyOnly" : {
+              "properties" : {
+                "enabled" : {
+                  "type" : "boolean"
+                },
+                "lockedTime" : {
+                  "type" : "string"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "type" : "object"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "retentionPolicy" : {
+          "properties" : {
+            "effectiveTime" : {
+              "type" : "string"
+            },
+            "isLocked" : {
+              "type" : "boolean"
+            },
+            "retentionPeriod" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "defaultObjectAcl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "website" : {
+          "properties" : {
+            "mainPageSuffix" : {
+              "type" : "string"
+            },
+            "notFoundPage" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "projectNumber" : {
+          "type" : "string"
+        },
+        "labels" : {
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "defaultEventBasedHold" : {
+          "type" : "boolean"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "logging" : {
+          "properties" : {
+            "logBucket" : {
+              "type" : "string"
+            },
+            "logObjectPrefix" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "location" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "patch",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "predefinedAcl" : {
+          "type" : "string"
+        },
+        "predefinedDefaultObjectAcl" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}",
+    "bodySchema" : {
+      "properties" : {
+        "cors" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "versioning" : {
+          "properties" : {
+            "enabled" : {
+              "type" : "boolean"
+            }
+          },
+          "type" : "object"
+        },
+        "locationType" : {
+          "type" : "string"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "billing" : {
+          "properties" : {
+            "requesterPays" : {
+              "type" : "boolean"
+            }
+          },
+          "type" : "object"
+        },
+        "lifecycle" : {
+          "properties" : {
+            "rule" : {
+              "array" : true,
+              "type" : "object"
+            }
+          },
+          "type" : "object"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "encryption" : {
+          "properties" : {
+            "defaultKmsKeyName" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "iamConfiguration" : {
+          "properties" : {
+            "bucketPolicyOnly" : {
+              "properties" : {
+                "enabled" : {
+                  "type" : "boolean"
+                },
+                "lockedTime" : {
+                  "type" : "string"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "type" : "object"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "retentionPolicy" : {
+          "properties" : {
+            "effectiveTime" : {
+              "type" : "string"
+            },
+            "isLocked" : {
+              "type" : "boolean"
+            },
+            "retentionPeriod" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "defaultObjectAcl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "website" : {
+          "properties" : {
+            "mainPageSuffix" : {
+              "type" : "string"
+            },
+            "notFoundPage" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "projectNumber" : {
+          "type" : "string"
+        },
+        "labels" : {
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "defaultEventBasedHold" : {
+          "type" : "boolean"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "logging" : {
+          "properties" : {
+            "logBucket" : {
+              "type" : "string"
+            },
+            "logObjectPrefix" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "location" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "predefinedAcl" : {
+          "type" : "string"
+        },
+        "predefinedDefaultObjectAcl" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl",
+    "bodySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "entityId" : {
+          "type" : "string"
+        },
+        "projectTeam" : {
+          "properties" : {
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "team" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "domain" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        },
+        "entity" : {
+          "type" : "string"
+        },
+        "object" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/lockRetentionPolicy",
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "ifMetagenerationMatch" : {
+          "required" : true,
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys/{accessId}",
+    "method" : "delete",
+    "querySchema" : {
+      "properties" : {
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys/{accessId}",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys/{accessId}",
+    "bodySchema" : {
+      "properties" : {
+        "accessId" : {
+          "type" : "string"
+        },
+        "serviceAccountEmail" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "state" : {
+          "type" : "string"
+        },
+        "projectId" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}",
+    "method" : "delete",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "ifGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}",
+    "method" : "get",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "ifGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}",
+    "bodySchema" : {
+      "properties" : {
+        "metadata" : {
+          "type" : "object"
+        },
+        "temporaryHold" : {
+          "type" : "boolean"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "customerEncryption" : {
+          "properties" : {
+            "encryptionAlgorithm" : {
+              "type" : "string"
+            },
+            "keySha256" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "timeDeleted" : {
+          "type" : "string"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "md5Hash" : {
+          "type" : "string"
+        },
+        "contentDisposition" : {
+          "type" : "string"
+        },
+        "contentEncoding" : {
+          "type" : "string"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "contentType" : {
+          "type" : "string"
+        },
+        "generation" : {
+          "type" : "string"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "retentionExpirationTime" : {
+          "type" : "string"
+        },
+        "cacheControl" : {
+          "type" : "string"
+        },
+        "kmsKeyName" : {
+          "type" : "string"
+        },
+        "mediaLink" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "eventBasedHold" : {
+          "type" : "boolean"
+        },
+        "componentCount" : {
+          "type" : "integer"
+        },
+        "crc32c" : {
+          "type" : "string"
+        },
+        "size" : {
+          "type" : "string"
+        },
+        "timeStorageClassUpdated" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "contentLanguage" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "patch",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "predefinedAcl" : {
+          "type" : "string"
+        },
+        "ifGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}",
+    "bodySchema" : {
+      "properties" : {
+        "metadata" : {
+          "type" : "object"
+        },
+        "temporaryHold" : {
+          "type" : "boolean"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "customerEncryption" : {
+          "properties" : {
+            "encryptionAlgorithm" : {
+              "type" : "string"
+            },
+            "keySha256" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "timeDeleted" : {
+          "type" : "string"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "md5Hash" : {
+          "type" : "string"
+        },
+        "contentDisposition" : {
+          "type" : "string"
+        },
+        "contentEncoding" : {
+          "type" : "string"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "contentType" : {
+          "type" : "string"
+        },
+        "generation" : {
+          "type" : "string"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "retentionExpirationTime" : {
+          "type" : "string"
+        },
+        "cacheControl" : {
+          "type" : "string"
+        },
+        "kmsKeyName" : {
+          "type" : "string"
+        },
+        "mediaLink" : {
+          "type" : "string"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "bucket" : {
+          "type" : "string"
+        },
+        "eventBasedHold" : {
+          "type" : "boolean"
+        },
+        "componentCount" : {
+          "type" : "integer"
+        },
+        "crc32c" : {
+          "type" : "string"
+        },
+        "size" : {
+          "type" : "string"
+        },
+        "timeStorageClassUpdated" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "contentLanguage" : {
+          "type" : "string"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "put",
+    "querySchema" : {
+      "properties" : {
+        "generation" : {
+          "type" : "string"
+        },
+        "ifMetagenerationMatch" : {
+          "type" : "string"
+        },
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "ifGenerationMatch" : {
+          "type" : "string"
+        },
+        "predefinedAcl" : {
+          "type" : "string"
+        },
+        "ifGenerationNotMatch" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        },
+        "ifMetagenerationNotMatch" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b",
+    "method" : "get",
+    "outputSchema" : {
+      "properties" : {
+        "kind" : {
+          "type" : "string"
+        },
+        "items" : {
+          "array" : true,
+          "properties" : {
+            "kind" : {
+              "type" : "string"
+            },
+            "id" : {
+              "type" : "string"
+            },
+            "selfLink" : {
+              "type" : "string"
+            },
+            "projectNumber" : {
+              "type" : "string"
+            },
+            "name" : {
+              "type" : "string"
+            },
+            "timeCreated" : {
+              "type" : "string"
+            },
+            "updated" : {
+              "type" : "string"
+            },
+            "metageneration" : {
+              "type" : "string"
+            },
+            "iamConfiguration" : {
+              "properties" : {
+                "bucketPolicyOnly" : {
+                  "properties" : {
+                    "enabled" : {
+                      "type" : "boolean"
+                    }
+                  },
+                  "type" : "object"
+                }
+              },
+              "type" : "object"
+            },
+            "location" : {
+              "type" : "string"
+            },
+            "storageClass" : {
+              "type" : "string"
+            },
+            "etag" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        }
+      },
+      "type" : "object"
+    },
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "maxResults" : {
+          "type" : "integer"
+        },
+        "prefix" : {
+          "type" : "string"
+        },
+        "project" : {
+          "required" : true,
+          "type" : "string"
+        },
+        "pageToken" : {
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "testQuery" : {
+      "project" : "project-trillort"
+    }
+  },
+  {
+    "serviceUrl" : "/svc/template1/gcs/storage/v1/b",
+    "bodySchema" : {
+      "properties" : {
+        "cors" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "versioning" : {
+          "properties" : {
+            "enabled" : {
+              "type" : "boolean"
+            }
+          },
+          "type" : "object"
+        },
+        "locationType" : {
+          "type" : "string"
+        },
+        "acl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "billing" : {
+          "properties" : {
+            "requesterPays" : {
+              "type" : "boolean"
+            }
+          },
+          "type" : "object"
+        },
+        "lifecycle" : {
+          "properties" : {
+            "rule" : {
+              "array" : true,
+              "type" : "object"
+            }
+          },
+          "type" : "object"
+        },
+        "storageClass" : {
+          "type" : "string"
+        },
+        "encryption" : {
+          "properties" : {
+            "defaultKmsKeyName" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "iamConfiguration" : {
+          "properties" : {
+            "bucketPolicyOnly" : {
+              "properties" : {
+                "enabled" : {
+                  "type" : "boolean"
+                },
+                "lockedTime" : {
+                  "type" : "string"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "type" : "object"
+        },
+        "timeCreated" : {
+          "type" : "string"
+        },
+        "id" : {
+          "type" : "string"
+        },
+        "retentionPolicy" : {
+          "properties" : {
+            "effectiveTime" : {
+              "type" : "string"
+            },
+            "isLocked" : {
+              "type" : "boolean"
+            },
+            "retentionPeriod" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "defaultObjectAcl" : {
+          "array" : true,
+          "type" : "object"
+        },
+        "owner" : {
+          "properties" : {
+            "entityId" : {
+              "type" : "string"
+            },
+            "entity" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "metageneration" : {
+          "type" : "string"
+        },
+        "website" : {
+          "properties" : {
+            "mainPageSuffix" : {
+              "type" : "string"
+            },
+            "notFoundPage" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "kind" : {
+          "type" : "string"
+        },
+        "projectNumber" : {
+          "type" : "string"
+        },
+        "labels" : {
+          "type" : "object"
+        },
+        "selfLink" : {
+          "type" : "string"
+        },
+        "defaultEventBasedHold" : {
+          "type" : "boolean"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "logging" : {
+          "properties" : {
+            "logBucket" : {
+              "type" : "string"
+            },
+            "logObjectPrefix" : {
+              "type" : "string"
+            }
+          },
+          "type" : "object"
+        },
+        "etag" : {
+          "type" : "string"
+        },
+        "location" : {
+          "type" : "string"
+        },
+        "updated" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    },
+    "method" : "post",
+    "querySchema" : {
+      "properties" : {
+        "provisionalUserProject" : {
+          "type" : "string"
+        },
+        "predefinedAcl" : {
+          "type" : "string"
+        },
+        "predefinedDefaultObjectAcl" : {
+          "type" : "string"
+        },
+        "project" : {
+          "required" : true,
+          "type" : "string"
+        },
+        "projection" : {
+          "type" : "string"
+        },
+        "userProject" : {
+          "type" : "string"
+        }
+      },
+      "type" : "object"
+    }
+  }
+]

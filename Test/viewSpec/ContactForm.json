@@ -1,0 +1,8 @@
+{
+  "name" : "ContactForm",
+  "type" : "form",
+  "postUrl" : "/ds/save/Contact",
+  "apiSpec" : {
+    "serviceUrl" : "/ds/object/Contact?id={{params.id}}"
+  }
+}

@@ -1,0 +1,32 @@
+<div nm="Attachments">
+  <div data-component="title1" class="row page-titles mx-0">
+    <div class="col-6 align-self-center">
+      <h3 class="text-themecolor">Attachments</h3>
+    </div>
+    <div data-container="" class="col-6 align-self-center text-right ">
+      <button data-component="button" type="button" class="btn btn-primary" nm="upload">New Attachment</button>
+    </div>
+  </div>
+  <div data-wrapper="table" class="table-responsive">
+    <div class="card">
+      <div data-container="" class="card-body">
+        <table data-component="table" class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Date &amp; Time</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-table-row="">
+              <td style="width: 15%;"><a href="{{{url}}}" nm="open" target="_blank"><span nm="title" data-field>Application.doc</span></a></td>
+              <td nm="updatedAt" data-field="datetime" data-format="M/D/YY hh:mm A" style="width: 25%;"></td>
+              <td data-field="true" nm="description" style="width: 60%;"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

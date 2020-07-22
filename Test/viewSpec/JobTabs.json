@@ -1,0 +1,22 @@
+{
+  "name" : "JobTabs",
+  "type" : "container",
+  "apiSpec" : {
+    "serviceUrl" : "/ds/objectgraph",
+    "body" : {
+      "className" : "Job",
+      "id" : "{{params.id}}",
+      "children" : [
+        {
+          "assocName" : "jobToOption"
+        },
+        {
+          "assocName" : "files"
+        }
+      ],
+      "_uid_" : "{{params.id}}",
+      "uid" : "{{params.id}}"
+    },
+    "method" : "post"
+  }
+}

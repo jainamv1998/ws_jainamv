@@ -1,0 +1,4 @@
+.user-profile .profile-img::before {
+  -webkit-animation: none;
+  animation: none;
+}

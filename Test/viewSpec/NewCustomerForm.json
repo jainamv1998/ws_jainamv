@@ -1,0 +1,5 @@
+{
+  "name" : "NewCustomerForm",
+  "type" : "form",
+  "postUrl" : "/ds/save/Customer"
+}

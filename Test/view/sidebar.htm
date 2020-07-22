@@ -1,0 +1,39 @@
+<div>
+  <aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="js-non-native-scrollbar non-native-scrollbar-container">
+      <!-- User profile -->
+      <div class="user-profile" style="background: url(/$org_name$/shared/static/img/user-info.png) no-repeat;">
+        <!-- User profile image -->
+        <div class="profile-img"> <img src="/$org_name$/shared/static/img/7.png" alt="user" /> </div>
+        <!-- User profile text-->
+        <div class="profile-text">
+          <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">{{{user.fullName}}}
+          </a>
+          <div class="dropdown-menu animated flipInY">
+            <a href="#" class="dropdown-item" nm="myProfile"><i class="ti-user"></i>
+              My Profile
+            </a>
+            <a href="#" class="dropdown-item" nm="changeMyPassword"><i class="ti-settings"></i>
+              Change Password
+            </a>
+            <a href="#" class="dropdown-item d-none"><i class="ti-settings"></i>
+              Account Setting
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" nm="_logout" class="dropdown-item"><i class="fa fa-power-off"></i>
+              Logout
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End User profile text-->
+      <!-- Sidebar navigation-->
+      <div data-reference="mainSidebar" data-component="view">
+
+      </div>
+    </div>
+    <!-- End Sidebar scroll-->
+
+  </aside>
+</div>

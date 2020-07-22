@@ -1,0 +1,12 @@
+{
+  "name" : "Jobs",
+  "type" : "dataTable",
+  "apiSpec" : {
+    "serviceUrl" : "/ds/page/Job",
+    "body" : {
+      "size" : 10000,
+      "start" : 1
+    },
+    "method" : "post"
+  }
+}

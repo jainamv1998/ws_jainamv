@@ -1,0 +1,225 @@
+{
+"basePath" : "/v1",
+"paths" : {
+  "/documents:analyzeSyntax" : {
+    "post" : {
+      "description" : "TODO: Add Description",
+      "summary" : "AnalyzeSyntax",
+      "tags" : [
+        "Misc"
+      ],
+      "operationId" : "DocumentsAnalyzeSyntaxPost",
+      "deprecated" : false,
+      "produces" : [
+        "application/json"
+      ],
+      "parameters" : [
+        {
+          "name" : "Content-Type",
+          "in" : "header",
+          "required" : true,
+          "type" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "Body",
+          "in" : "body",
+          "required" : true,
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/AnalyzeRequest"
+          }
+        }
+      ],
+      "responses" : {
+        "200" : {
+          "description" : "",
+          "headers" : { }
+        }
+      }
+    }
+  },
+  "/documents:analyzeSentiment" : {
+    "post" : {
+      "description" : "TODO: Add Description",
+      "summary" : "AnalyzeSentiment",
+      "tags" : [
+        "Misc"
+      ],
+      "operationId" : "DocumentsAnalyzeSentimentPost",
+      "deprecated" : false,
+      "produces" : [
+        "application/json"
+      ],
+      "parameters" : [
+        {
+          "name" : "Content-Type",
+          "in" : "header",
+          "required" : true,
+          "type" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "Body",
+          "in" : "body",
+          "required" : true,
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/AnalyzeRequest"
+          }
+        }
+      ],
+      "responses" : {
+        "200" : {
+          "description" : "",
+          "headers" : { }
+        }
+      }
+    }
+  },
+  "/documents:analyzeEntitySentiment" : {
+    "post" : {
+      "description" : "TODO: Add Description",
+      "summary" : "AnalyzeEntitySentiment",
+      "tags" : [
+        "Misc"
+      ],
+      "operationId" : "DocumentsAnalyzeEntitySentimentPost",
+      "deprecated" : false,
+      "produces" : [
+        "application/json"
+      ],
+      "parameters" : [
+        {
+          "name" : "Content-Type",
+          "in" : "header",
+          "required" : true,
+          "type" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "Body",
+          "in" : "body",
+          "required" : true,
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/AnalyzeRequest"
+          }
+        }
+      ],
+      "responses" : {
+        "200" : {
+          "description" : "",
+          "headers" : { }
+        }
+      }
+    }
+  },
+  "/documents:classifyText" : {
+    "post" : {
+      "description" : "TODO: Add Description",
+      "summary" : "ClassifyText",
+      "tags" : [
+        "Misc"
+      ],
+      "operationId" : "DocumentsClassifyTextPost",
+      "deprecated" : false,
+      "produces" : [
+        "application/json"
+      ],
+      "parameters" : [
+        {
+          "name" : "Content-Type",
+          "in" : "header",
+          "required" : true,
+          "type" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "Body",
+          "in" : "body",
+          "required" : true,
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/AnalyzeRequest"
+          }
+        }
+      ],
+      "responses" : {
+        "200" : {
+          "description" : "",
+          "headers" : { }
+        }
+      }
+    }
+  }
+},
+"host" : "language.googleapis.com",
+"produces" : [
+  "application/json"
+],
+"schemes" : [
+  "https"
+],
+"definitions" : {
+  "AnalyzeRequest" : {
+    "title" : "AnalyzeRequest",
+    "example" : {
+      "encodingType" : "UTF8",
+      "document" : {
+        "type" : "PLAIN_TEXT",
+        "content" : "Google, headquartered in Mountain View, unveiled the new Android phone at the Consumer Electronic Show.  Sundar Pichai said in his keynote that users love their new Android phones."
+      }
+    },
+    "type" : "object",
+    "properties" : {
+      "encodingType" : {
+        "type" : "string"
+      },
+      "document" : {
+        "$ref" : "#/definitions/Document"
+      }
+    },
+    "required" : [
+      "encodingType",
+      "document"
+    ]
+  },
+  "Document" : {
+    "title" : "Document",
+    "example" : {
+      "type" : "PLAIN_TEXT",
+      "content" : "Google, headquartered in Mountain View, unveiled the new Android phone at the Consumer Electronic Show.  Sundar Pichai said in his keynote that users love their new Android phones."
+    },
+    "type" : "object",
+    "properties" : {
+      "type" : {
+        "type" : "string"
+      },
+      "content" : {
+        "type" : "string"
+      }
+    },
+    "required" : [
+      "type",
+      "content"
+    ]
+  }
+},
+"swagger" : "2.0",
+"info" : {
+  "version" : "1.0",
+  "title" : "GCP-NLP",
+  "description" : "TODO: Add Description",
+  "contact" : { }
+},
+"consumes" : [
+  "application/json"
+],
+"tags" : [
+  {
+    "name" : "Misc",
+    "description" : ""
+  }
+]
+}

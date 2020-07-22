@@ -1,0 +1,5 @@
+{
+  "name" : "NewJobForm",
+  "type" : "form",
+  "postUrl" : "/ds/save/Job"
+}

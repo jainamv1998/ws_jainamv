@@ -1,0 +1,5 @@
+{
+  "name" : "mainSidebar",
+  "type" : "navigation",
+  "templateName" : "nav-metis-group"
+}

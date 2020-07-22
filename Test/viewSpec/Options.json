@@ -1,0 +1,5 @@
+{
+  "name" : "Options",
+  "type" : "editableTable",
+  "dataPath" : "parentData.jobToOption"
+}

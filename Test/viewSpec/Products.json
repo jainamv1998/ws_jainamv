@@ -1,0 +1,12 @@
+{
+  "name" : "Products",
+  "type" : "dataTable",
+  "apiSpec" : {
+    "serviceUrl" : "/ds/page/Product",
+    "body" : {
+      "size" : 10000,
+      "start" : 1
+    },
+    "method" : "post"
+  }
+}

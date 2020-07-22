@@ -1,0 +1,140 @@
+{
+  "name" : "gcs",
+  "props" : {
+    "authentication" : {
+    },
+    "grant_type" : "custom"
+  },
+  "type" : "externalService",
+  "useOAuth" : true,
+  "docUrl" : "/_model/api-service/template1/gcs",
+  "routeSpecs" : [
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/acl/{entity}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/defaultObjectAcl/{entity}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/iam",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/iam/testPermissions",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/lockRetentionPolicy",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/notificationConfigs/{notification}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/watch",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/acl/{entity}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/iam",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{bucket}/o/{object}/iam/testPermissions",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{destinationBucket}/o/{destinationObject}/compose",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{sourceBucket}/o/{sourceObject}/copyTo/b/{destinationBucket}/o/{destinationObject}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/b/{sourceBucket}/o/{sourceObject}/rewriteTo/b/{destinationBucket}/o/{destinationObject}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/channels/stop",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/projects/{projectId}/hmacKeys/{accessId}",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    },
+    {
+      "path" : "/svc/template1/gcs/storage/v1/projects/{projectId}/serviceAccount",
+      "location" : "https://www.googleapis.com",
+      "secure" : true
+    }
+  ],
+  "useHttps" : true,
+  "provider" : "gcp_service_account"
+}

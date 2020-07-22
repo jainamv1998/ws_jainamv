@@ -1,0 +1,19 @@
+{
+  "name" : "Customers",
+  "type" : "dataTable",
+  "apiSpec" : {
+    "serviceUrl" : "/ds/page/Customer",
+    "body" : {
+      "size" : 10000,
+      "start" : 1
+    },
+    "method" : "post"
+  },
+  "actionSpecs" : [
+    {
+      "name" : "newCustomer",
+      "type" : "dialogView",
+      "viewName" : "NewCustomerForm"
+    }
+  ]
+}

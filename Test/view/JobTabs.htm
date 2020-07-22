@@ -1,0 +1,75 @@
+<div nm="JobTabs" class="w-100">
+  <div data-component="title1" class="row page-titles mx-0">
+    <div class="col-6 align-self-center">
+      <h3 class="text-themecolor">Job Detail</h3>
+    </div>
+    <div data-container="" class="col-6 align-self-center text-right"> </div>
+  </div>
+  <div data-wrapper="nav-tabs" class="row">
+    <div class="col-12">
+      <div class="card">
+        <div data-container="" class="card-body">
+          <ul data-component="nav-tabs" class="nav nav-tabs customtab2 mb-4" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#overview" role="tab" nm="overview">
+                <span class="hidden-sm-up">
+                  <i class="ti-home"></i>
+                </span>
+                <span class="hidden-xs-down">Overview</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#dates" role="tab" nm="dates">
+                <span class="hidden-sm-up">
+                  <i class="ti-home"></i>
+                </span>
+                <span class="hidden-xs-down">Dates</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#options" role="tab" nm="options">
+                <span class="hidden-sm-up">
+                  <i class="ti-home"></i>
+                </span>
+                <span class="hidden-xs-down">Options</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#attachments" role="tab" nm="attachments">
+                <span class="hidden-sm-up">
+                  <i class="ti-home"></i>
+                </span>
+                <span class="hidden-xs-down">Attachments</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#notes" role="tab" nm="notes">
+                <span class="hidden-sm-up">
+                  <i class="ti-home"></i>
+                </span>
+                <span class="hidden-xs-down">Notes</span>
+              </a>
+            </li>
+          </ul>
+          <div data-component="tabContent" class="tab-content px-4">
+            <div data-component="tabPane" class="tab-pane active" id="overview" role="tabpanel" nm="overview">
+              <div nm="JobDetail" class="w-100" data-reference="JobDetail" data-component="view"></div>
+            </div>
+            <div data-component="tabPane" class="tab-pane" id="dates" role="tabpanel" nm="dates">
+              <div nm="DatesForm" class="w-100" data-reference="DatesForm" data-component="view"></div>
+            </div>
+            <div data-component="tabPane" class="tab-pane" id="options" role="tabpanel" nm="options">
+              <div nm="Options" class="p-3 m-auto w-100" data-reference="Options" data-component="view"></div>
+            </div>
+            <div data-component="tabPane" class="tab-pane" id="attachments" role="tabpanel" nm="attachments">
+              <div nm="Attachments" class="p-3 m-auto w-100" data-reference="Attachments" data-component="view"></div>
+            </div>
+            <div data-component="tabPane" class="tab-pane" id="notes" role="tabpanel" nm="notes">
+              <div nm="Notes" class="p-3 m-auto w-100" data-reference="Notes" data-component="view"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

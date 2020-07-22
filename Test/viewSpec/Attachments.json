@@ -1,0 +1,5 @@
+{
+  "name" : "Attachments",
+  "type" : "table",
+  "dataPath" : "parentData.files"
+}

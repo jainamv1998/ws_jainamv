@@ -1,0 +1,16 @@
+{
+  "name" : "Dashboard",
+  "type" : "default",
+  "actionSpecs" : [
+    {
+      "name" : "newJob",
+      "type" : "dialogView",
+      "viewName" : "NewJobForm"
+    },
+    {
+      "name" : "newCustomer",
+      "type" : "dialogView",
+      "viewName" : "NewCustomerForm"
+    }
+  ]
+}

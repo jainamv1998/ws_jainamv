@@ -1,0 +1,35 @@
+{
+"name" : "api",
+"props" : {
+  "authentication" : {
+  },
+  "grant_type" : "custom"
+},
+"type" : "externalService",
+"useOAuth" : true,
+"docUrl" : "/_model/api-service/template1/api",
+"routeSpecs" : [
+  {
+    "path" : "/svc/template1/api/v1/documents:analyzeSyntax",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  },
+  {
+    "path" : "/svc/template1/api/v1/documents:analyzeSentiment",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  },
+  {
+    "path" : "/svc/template1/api/v1/documents:analyzeEntitySentiment",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  },
+  {
+    "path" : "/svc/template1/api/v1/documents:classifyText",
+    "location" : "https://language.googleapis.com",
+    "secure" : true
+  }
+],
+"useHttps" : true,
+"provider" : "gcp_service_account"
+}

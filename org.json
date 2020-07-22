@@ -1,0 +1,16 @@
+{
+    "authChoice" : "1",
+    "credentials" : "[]",
+    "gitConnected" : true,
+    "logos" : {
+      "logoStamp" : "/ws_jainamv/shared/static/img/logo-stamp.png"
+    },
+    "name" : "ws_jainamv",
+    "rtChoice" : "gce",
+    "rtServerUrlDev" : "https://34.68.52.111",
+    "rtServerUrlInt" : "https://34.68.52.111",
+    "rtServerUrlProduction" : "https://34.68.52.111",
+    "rtServerUrlQA" : "https://rt.trillo.io",
+    "rtServerUrlStaging" : "https://34.68.52.111",
+    "rtUrl" : "https://34.68.52.111"
+  }

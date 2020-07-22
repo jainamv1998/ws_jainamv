@@ -1,0 +1,60 @@
+<div nm="NewCustomerForm" style="width:600px">
+  <div data-wrapper="form" class="row">
+    <div class="col-12">
+      <div class="card">
+        <div data-container="" class="card-body">
+          <form data-component="form">
+            <h4 data-component="formtitle" class="card-title mb-4">New Customer</h4>
+            <div data-component="text" class="form-group">
+              <label data-label="" class="">Customer Name</label>
+              <input data-field="" type="text" data-validation="required" class="form-control" nm="name">
+            </div>
+            <div data-component="text" class="form-group">
+              <label data-label="" class="">Address Line 1</label>
+              <input data-field="" type="text" class="form-control" data-validation="required" nm="main.addressLine1">
+            </div>
+            <div data-component="text" class="form-group">
+              <label data-label="" class="">Address Line 2</label>
+              <input data-field="" type="text" class="form-control" nm="main.addressLine2">
+            </div>
+            <div class="form-row">
+              <div data-component="text" class="form-group col-md-6">
+                <label for="main.city">City</label>
+                <input type="text" class="form-control" nm="main.city" data-validation="required">
+              </div>
+              <div data-component="select" class="form-group col-md-4">
+                <label for="main.state">State</label>
+                <select nm="main.state" class="form-control" data-validation="required" enum-name="state-types">
+                  <option></option>
+                </select>
+              </div>
+              <div data-component="text" class="form-group col-md-2">
+                <label for="main.zip">Zip</label>
+                <input type="text" class="form-control" nm="main.zip" data-validation="required">
+              </div>
+            </div>
+            <div data-component="text" class="form-group">
+              <label data-label="" class="">Phone</label>
+              <input data-field="" type="text" class="form-control" data-validation="required" data-mask="(999) 999-9999" nm="main.phone">
+            </div>
+            <div data-component="email" class="form-group">
+              <label data-label="" class="">Email</label>
+              <input data-field="" type="text" class="form-control" data-validation-optional="true" data-validation="email" nm="Email">
+            </div>
+            <div data-radios-container="" class="form-group" data-component="radio-inline" nm="type">
+              <label data-label="" class="">Distributor?</label>
+              <div data-radio-container="" class="custom-control custom-radio custom-control-inline">
+                <input data-field="" type="radio" id="type" name="type" class="custom-control-input" nm="type" enum-name="boolean-type">
+                <label data-label="" for="type" data-radio-label="" class="custom-control-label"></label>
+              </div>
+            </div>
+            <div>
+              <button data-component="button" type="button" class="btn btn-primary" nm="ok">OK</button>
+              <button data-component="button" type="button" class="btn btn-primary" nm="close">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

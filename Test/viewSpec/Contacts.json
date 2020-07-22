@@ -1,0 +1,12 @@
+{
+  "name" : "Contacts",
+  "type" : "dataTable",
+  "apiSpec" : {
+    "serviceUrl" : "/ds/page/Contact",
+    "body" : {
+      "size" : 10000,
+      "start" : 1
+    },
+    "method" : "post"
+  }
+}
